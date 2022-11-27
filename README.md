@@ -23,6 +23,8 @@
 
 目前提供中文和英文两个版本.
 
+关于训练模型的部分,可以查看训练的[分支](https://github.com/LiRunJi/Hot-Key-With-Hands-Recognition/tree/training-zh).
+
 ### 目前支持识别的手势有如下这些
 
 <img src="https://my-blogs-imgs-1312546167.cos.ap-nanjing.myqcloud.com//wps1.jpg" alt="img" style="zoom:50%;" /> 
@@ -151,9 +153,13 @@
 
 [Qt-Material — Qt Material documentation](https://qt-material.readthedocs.io/en/latest/index.html)
 
+[PyInstaller Manual — PyInstaller 5.6.2 documentation](https://pyinstaller.org/en/stable/)
+
+https://pypi.org/project/auto-py-to-exe/
+
 同样也感谢我的导师,我曾经是一个几乎写不出代码的人,在我困惑和迷茫的时候给予我鼓励,正是这份支持使得我在编程的道路上走下去,一步步解决问题提高编码的能力.虽然我现在写代码的水平一般般,但对于我来说,这已经算是一种巨大的突破了,从一个连c语言都学不懂的人,到现在能自由的实现自己想要的代码,这简直是难以想象.
 
-还有很多的博客的作者,在碰到bug的时候一下就能搜索出解决方案.
+同样也很感谢很多的博客的作者,在碰到bug的时候一下就能搜索出解决方案.
 
 
 
