@@ -13,9 +13,9 @@
 
 他可以识别出你的手势,然后根据识别出的接过,触发对应的快捷键,实现自定义的功能.
 
-比如说[隔空刷抖音](https://www.douyin.com/user/MS4wLjABAAAAy5YUmt3PiQaZEP4GWYRROU2e-SrIzUv0yAqIiZxfbHw?modal_id=7168877845723352357):
+比如说隔空刷抖音:
 
-[您可以点击这个链接查看程序演示效果.](https://www.douyin.com/user/MS4wLjABAAAAy5YUmt3PiQaZEP4GWYRROU2e-SrIzUv0yAqIiZxfbHw?modal_id=7168877845723352357)
+[您可以点击这个链接查看程序演示效果.](https://www.bilibili.com/video/BV1RM411r7X6/?spm_id_from=333.999.0.0)
 
 根据提供的十一个快捷手势,您可以轻松实现自定义的功能.
 
