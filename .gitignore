@@ -2,8 +2,11 @@
 # gitignore template for Jupyter Notebooks
 # website: http://jupyter.org/
 DataForTraining/*
+!DataForTraining/.gitkeep
 GestureVideos/*
+!GestureVideos/.gitkeep
 #TrainingOutput/*
+
 
 out
 nuitkaui
