@@ -3,7 +3,7 @@
 # website: http://jupyter.org/
 DataForTraining/*
 GestureVideos/*
-TrainingOutput/*
+#TrainingOutput/*
 
 out
 nuitkaui

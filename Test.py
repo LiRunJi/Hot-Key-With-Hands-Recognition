@@ -110,3 +110,6 @@ def test():
     print("========正在测试您训练的模型的结果=============")
     print("按q退出")
     recognizer.start_in_loop()
+
+if __name__ == '__main__':
+    test()

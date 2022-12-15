@@ -29,7 +29,7 @@ def load_training_sets()->list:
     print(y_train.shape)
     return x_train,y_train
 
-def training():
+def training(epochs=150):
     #获取初步数据,打乱顺序送入模型训练
     x_train,y_train=load_training_sets()
     print(y_train)
@@ -47,7 +47,7 @@ def training():
                   metrics=['sparse_categorical_accuracy'])
 
     #送入模型.开始训练
-    model.fit(x_train, y_train, batch_size=128, epochs=50, validation_split=0.2, validation_freq=1)
+    model.fit(x_train, y_train, batch_size=128, epochs=epochs, validation_split=0.2, validation_freq=1)
     #保存模型
     model.save('TrainingOutput/ModelFiles')
     #打印摘要
@@ -57,5 +57,6 @@ def training():
     pre =  model.predict(landmark21_[:1])
     print(pre)
 
-
+if __name__ == '__main__':
+    training(150)
 

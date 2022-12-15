@@ -77,7 +77,7 @@ def generate_training_sets(show_img=True):
                 while (cap.isOpened()):
                     success, image = cap.read()
                     if success:
-                        image = cv2.flip(image, 1)
+                        image = cv2.flip(image, -1)
                         # 将图片设置为不可写，提升性能
                         image.flags.writeable = False
                         # 转换为RGB格式
